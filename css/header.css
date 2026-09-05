@@ -39,3 +39,26 @@
 .contacts-link:focus {
   color: var(--ocean);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts {
+  margin-left: auto;
+}
+
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
